@@ -11,23 +11,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/landing/style.css" rel="stylesheet">
-    <script src="/landing/script.js" defer></script>
+    <!-- <script src="/landing/script.js" defer></script> -->
 </head>
 
 <body>
-    
+
     <!-- navbar -->
     <div dir="ltr" class="navbar-brand" href="/index.html">
         <a href="/index.html"><img src="/images/logo.png" alt="Bootstrap"></a>
     </div>
+    <!-- <span>
+        <form class="d-flex nav-search" role="search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control me-2" id="search-input" type="search" dir="ltr" placeholder="Search"
+                aria-label="Search" onkeyup="searchFunction()">
+        </form>
+    </span> -->
     <!-- end of navbar -->
-    
+
     <img class="bg-img mx-auto" src="/images/worldcup.jpg" alt="world-cup">
     <section class="container-fluid">
 
         <div class="container mt-3">
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div id="card-row" class="row row-cols-1 row-cols-md-4 g-4">
+
+                <div class="col">
+                    <div href="" class="card-link">
+                        <div class="card text-bg-dark mb-3 shadow-lg bg-dark p-3 mb-5">
+                            <div class="card-header text-center">الارجنتين و استراليا</div>
+                            <img class="card-img" src="/images/ArgVsAus.png" alt="">
+                        </div>
+                        <a href="/pages/ArgVsAus.html"></a>
+                    </div>
+                </div>
 
                 <div class="col">
                     <div href="" class="card-link">
@@ -97,7 +114,7 @@
         </div>
 
     </section>
-
+    <script src="/landing/script.js"></script>
     <!-- Scripts -->
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
