@@ -14,9 +14,9 @@ function searchFunction() {
         // console.log(headerText)
         txtValue = headerText.innerText || headerText.textContent;
         if (!headerText.includes(input.value)) {
-            headers[i].parentElement.style.display = "none";
+            headers[i].parentElement.parentElement.parentElement.style.display = "none";
         } else {
-            headers[i].parentElement.style.display = "";
+            headers[i].parentElement.parentElement.parentElement.style.display = "";
                 }
     }
 }
