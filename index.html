@@ -3,8 +3,7 @@
 
 <head>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -26,23 +25,25 @@
 </script>
 
 <body>
+    <div class="animate__animated animate__fadeInDown">
 
-    <!-- navbar -->
-    <div dir="ltr" class="navbar-brand" href="/">
-        <a href="/"><img src="/images/logo.png" alt="KoraReplay logo"></a>
+        <!-- navbar -->
+        <div dir="ltr" class="navbar-brand" href="/">
+            <a href="/"><img src="/images/logo.png" alt="KoraReplay logo"></a>
+        </div>
+        <span>
+            <form class="d-flex nav-search" role="search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" id="search-input" type="search" dir="ltr" placeholder="Search"
+                    aria-label="Search" onkeyup="searchFunction()">
+            </form>
+        </span>
+        <!-- end of navbar -->
+        
+        <img class="bg-img mx-auto" src="/images/worldcup.jpg" alt="world-cup">
     </div>
-    <span>
-        <form class="d-flex nav-search" role="search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-            <input class="form-control me-2" id="search-input" type="search" dir="ltr" placeholder="Search"
-                aria-label="Search" onkeyup="searchFunction()">
-        </form>
-    </span>
-    <!-- end of navbar -->
-
-    <img class="bg-img mx-auto" src="/images/worldcup.jpg" alt="world-cup">
-    <h1 class="text-center">شاهد اعادة مباريات كاس العالم كاملة</h1>
-    <article class="container-fluid">
+    <h1 class="text-center  animate__animated animate__fadeIn animate__delay-1s">شاهد اعادة مباريات كاس العالم كاملة</h1>
+    <article class="container-fluid  animate__animated animate__fadeInUp">
 
         <div class="container mt-3">
 
@@ -181,7 +182,7 @@
             ارشيف المباريات الكاملة -مباريات مسجلة كاملة - مباريات كاملة تعليق عربي</h2>
         <h3 class="text-light text-center mt-3" dir="ltr">Watch World Cup full HD matches replays at any time - Arabic
             commentary - Full match replays - World Cup 2022 Full Match Replay</h3>
-        </article>
+    </article>
     <script src="/landing/script.js"></script>
     <!-- Scripts -->
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
