@@ -1,3 +1,4 @@
+// search function
 function searchFunction() {
     // declare variables
     var input, filter, card, headers, headerText, txtValue;
@@ -17,6 +18,25 @@ function searchFunction() {
             headers[i].parentElement.parentElement.parentElement.style.display = "none";
         } else {
             headers[i].parentElement.parentElement.parentElement.style.display = "";
-                }
+        }
     }
 }
+// end of search function
+function loadGoogleTranslate() {
+    new google.translate.TranslateElement({
+
+        pageLanguage: 'ar',
+
+        autoDisplay: 'true',
+        includedLanguages: 'ar,en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+
+    }, 'google_translate_element');
+
+}
+
+// function changeContent(){
+//     document.getElementsByClassName('goog-te-combo').options[0].text = 'box';
+// }
+
+document.querySelector("#\\:0\\.targetLanguage > select > option:nth-child(1)") = "Seee"

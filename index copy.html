@@ -2,19 +2,11 @@
 <html dir="rtl" lang="ar">
 
 <head>
-    <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/2bf40af9ca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
     <!-- translate -->
     <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
     <!-- adsense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7403096237998920"
         crossorigin="anonymous"></script>
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -71,26 +63,24 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a id="btn" type="button" role="button" href="#" class="btn btn-primary dropdown-toggle">
-                                <div id="google_translate_element" class="" dir="ltr"></div>
-                            </a>
-                            <!-- <span id="arrow_down" class="material-symbols-outlined">arrow_drop_down</span> -->
+                            <a class="nav-link" href="#">About</a>
                         </li>
                     </ul>
-
-                    <form class="d-flex me-4" role="search">
+                    <form class="d-flex" role="search">
                         <input class="form-control me-2" id="search-input" type="search" placeholder="Search"
                             aria-label="Search" onkeyup="searchFunction()">
-                        <button class="btn btn-outline-success" type="submit"><span
-                                class="material-symbols-outlined">search</span></button>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
-
                 </div>
             </div>
         </nav>
+        <div dir="ltr">
+            <div id="google_element" class="" dir="ltr">
+                <!-- <span class="material-symbols-outlined">g_translate</span> -->
+            </div>
+        </div>
         <!-- end of navbar -->
 
         <img class="bg-img mx-auto" src="/images/worldcup.jpg" alt="world-cup">
@@ -266,7 +256,6 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2bf40af9ca.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
