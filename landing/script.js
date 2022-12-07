@@ -5,10 +5,6 @@ function searchFunction() {
     input = document.getElementById('search-input');
     card = document.getElementById("card-row");
     headers = card.getElementsByClassName('card-header');
-
-    // console.log(headers);
-    // console.log(input.value);
-
     // loop through all card headers, and hide those who don't match the search query
     for (i = 0; i < headers.length; i++) {
         headerText = headers[i].innerText;
@@ -22,21 +18,15 @@ function searchFunction() {
     }
 }
 // end of search function
+
+
+// Translation function
 function loadGoogleTranslate() {
     new google.translate.TranslateElement({
-
         pageLanguage: 'ar',
-
         autoDisplay: 'true',
         includedLanguages: 'ar,en',
         layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-
     }, 'google_translate_element');
-
 }
-
-// function changeContent(){
-//     document.getElementsByClassName('goog-te-combo').options[0].text = 'box';
-// }
-
-document.querySelector("#\\:0\\.targetLanguage > select > option:nth-child(1)") = "Seee"
+// end of translation function
