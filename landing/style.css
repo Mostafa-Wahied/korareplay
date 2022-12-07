@@ -65,6 +65,7 @@ html {
 .navbar-brand {
     display: block;
     position: relative;
+    margin-left: 2rem;
 }
 
 .navbar-brand img {
