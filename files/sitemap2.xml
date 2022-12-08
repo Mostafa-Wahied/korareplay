@@ -1,71 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-        <loc>https://korareplay.me</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/portugal-vs-switherland.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/morocco-vs-spain.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/japan-vs-croatia.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/england-vs-senegal.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/france-vs-poland.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/argentine-vs-australia.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/serbia-vs-switherland.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/brazil-vs-cameroon.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/ghana-vs-uruguay.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://korareplay.me/pages/portugal-vs-korea.html</loc>
-        <lastmod>2022-12-07</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+
+<url>
+  <loc>https://korareplay.me/</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/portugal-vs-switherland.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/morocco-vs-spain.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/brazil-vs-korea.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/japan-vs-croatia.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/england-vs-senegal.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/france-vs-poland.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/argentine-vs-australia.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/netherlands-vs-usa.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/serbia-vs-switherland.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/brazil-vs-cameroon.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/ghana-vs-uruguay.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/portugal-vs-korea.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/pages/spain-vs-japan.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/privacy-policy.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/faq.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/dmca.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/disclaimer.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://korareplay.me/about.html</loc>
+  <lastmod>2022-12-08T02:44:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
