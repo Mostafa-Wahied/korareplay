@@ -140,7 +140,7 @@ img.goog-te-gadget-icon,
 
 
 .goog-te-gadget-simple {
-    color: white;
+    color: #fcf8e3;
     background-color: transparent;
     border: none;
     border-radius: 5px;
@@ -160,11 +160,11 @@ img.goog-te-gadget-icon,
     margin: 0;
     padding: 0;
     background-color: #080405;
-    z-index: -1;
+    /* z-index: -1; */
     border: none;
     font-size: 1rem;
     line-height: 0;
-    color: bisque;
+    color: #fcf8e3;
 }
 
 /* end of navbar */
@@ -291,4 +291,30 @@ p {
 .flicker-in-2 {
     -webkit-animation: flicker-in-2 2s linear both;
     animation: flicker-in-2 2s linear both;
+}
+
+.alert-message.warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
+.alert-message {
+    position: relative;
+    display: block;
+    padding: 1rem;
+    margin: 4rem 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid;
+    width: 60%;
+}
+hr {
+    color: white;
+    width: 80%;
+}
+
+footer {
+    /* background-color: #1f1f1f; */
 }
