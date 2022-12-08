@@ -294,9 +294,9 @@ p {
 }
 
 .alert-message.warning {
-    background-color: #fcf8e3;
-    border-color: #faebcc;
-    color: #8a6d3b;
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc !important;
+    color: #8a6d3b !important;
 }
 
 .alert-message {
@@ -313,8 +313,4 @@ p {
 hr {
     color: white;
     width: 80%;
-}
-
-footer {
-    /* background-color: #1f1f1f; */
 }
