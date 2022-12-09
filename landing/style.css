@@ -239,7 +239,28 @@ p {
     font-family: cairo play;
 }
 
+.alert-message.warning {
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc !important;
+    color: #8a6d3b !important;
+}
 
+.alert-message {
+    position: relative;
+    display: block;
+    padding: 1rem;
+    margin: 4rem 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid;
+    width: 60%;
+}
+
+hr {
+    color: white;
+    width: 80%;
+}
 
 
 /*  * w: http://animista.net, t: @cssanimista */
@@ -286,31 +307,4 @@ p {
         filter: blur(0px);
         opacity: 1;
     }
-}
-
-.flicker-in-2 {
-    -webkit-animation: flicker-in-2 2s linear both;
-    animation: flicker-in-2 2s linear both;
-}
-
-.alert-message.warning {
-    background-color: #fcf8e3 !important;
-    border-color: #faebcc !important;
-    color: #8a6d3b !important;
-}
-
-.alert-message {
-    position: relative;
-    display: block;
-    padding: 1rem;
-    margin: 4rem 0;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    border: 1px solid;
-    width: 60%;
-}
-hr {
-    color: white;
-    width: 80%;
 }
