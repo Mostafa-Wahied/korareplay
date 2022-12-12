@@ -98,34 +98,50 @@
             <div class="container">
                 <img class="bg-img-page" src="/images/worldcup.jpg" alt="">
 
+                <div class="tab mx-auto text-center mt-4">
+                    <button class="tablinks" onclick="openCity(event, 'firstAr')" id="defaultOpen">الشوط الاول -
+                        عربي</button>
+                    <button class="tablinks" onclick="openCity(event, 'secondAr')">الشوط الثاني</button>
+                    <button class="tablinks" onclick="openCity(event, 'extraAr')">الأشواط الإضافية(إن وجدت)</button>
+                    <button class="tablinks" onclick="openCity(event, 'extra')">ET/PEN(if any)</button>
+                    <button class="tablinks" onclick="openCity(event, 'fullEn')">Full Match</button>
+                </div>
+
                 <div class="row">
                     <h1 class="fs-3 text-light text-center mt-3">مباراة كرواتيا و البرازيل كاس العالم 2022</h1>
                 </div>
-                <div class="row">
+
+                <div id="firstAr" class="row tabcontent">
                     <p class="text-light text-center mt-3">الشوط الاول - عربي</p>
                     <iframe src="https://vk.com/video_ext.php?oid=343161605&id=456239635&hash=6ec25b5329fb75b2"
                         width="640" height="360" frameborder="0" allowfullscreen="1"
                         allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 </div>
 
-                <div class="row">
+                <div id="secondAr" class="row tabcontent">
                     <p class="text-light text-center mt-3">الشوط الثاني - عربي</p>
                     <iframe src="https://vk.com/video_ext.php?oid=343161605&id=456239636&hash=5556a13c5bd5605f"
                         width="640" height="360" frameborder="0" allowfullscreen="1"
                         allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 </div>
 
-                <div class="row">
+                <div id="extraAr" class="row tabcontent">
                     <p class="text-light text-center mt-3">الاشواط الاضافية - عربي</p>
                     <iframe src="https://vk.com/video_ext.php?oid=343161605&id=456239637&hash=a382aca78938f34b"
                         width="640" height="360" frameborder="0" allowfullscreen="1"
                         allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
                 </div>
 
-                <div class="row">
-                    <p class="text-light text-center mt-3">المباراة كاملة - انجليزي</p>
+                <div id="fullEn" class="row tabcontent">
+                    <p class="text-light text-center mt-3">Full Match - English</p>
                     <iframe src="https://streamtape.com/e/7Kmwm2Ab1BiADwY/" width="640" height="360" frameborder="0"
                         allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+
+                <div id="extra" class="row tabcontent">
+                    <!-- <p class="text-light text-center mt-3">Extra Time/Penalties (if any) - English</p> -->
+                    <p class="text-light text-center mt-3">Either included in the full match or there's no extra time</p>
+
                 </div>
 
                 <p class="text-light text-center mt-3">ان لم يظهر الفيديو، يرجى تعطيل adblock او تغيير المتصفح او
