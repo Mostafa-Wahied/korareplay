@@ -16,3 +16,15 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 // end of tabs function
 
+
+// Translation function
+function loadGoogleTranslate() {
+    new google.translate.TranslateElement({
+        pageLanguage: 'ar',
+        autoDisplay: 'true',
+        includedLanguages: 'ar,en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+}
+// end of translation function
+
