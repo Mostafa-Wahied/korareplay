@@ -304,6 +304,87 @@ hr {
     animation: fadeEffect 1s;
 }
 
+/* end of tab */
+
+
+/* pagination */
+.paginations {
+    text-align: center;
+    margin: 1rem 1rem 2rem;
+    /* margin: 30px 30px 60px; */
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.paginations li {
+    display: inline-block;
+    margin: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(198, 198, 198, 0.137);
+    transition: 0.2s ease-in-out;
+}
+
+.paginations li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    transform: translateX(5px);
+}
+
+.previous-page,
+.next-page {
+    /* background-image: linear-gradient(#b69053, #6b4c15) !important; */
+    background-color: #a57a33;
+    width: 4.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.current-page,
+.dots {
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1));
+    width: 3rem;
+    border-radius: 50%;
+    transition: 0.1s ease-in-out;
+}
+
+/* .current-page:hover :not(.active) {
+    transform: scale(1.05);
+} */
+
+.current-page:hover {
+    /* color: #a57a33; */
+    color: #a57a33;
+
+    /* transform: scale(1.05); */
+}
+
+.active {
+    color: white;
+    background-color: #a57a33;
+}
+
+.active:hover {
+    color: #080405;
+}
+
+.disable {
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1));
+    color: white;
+
+}
+
+/* end of pagination */
+
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
     from {
