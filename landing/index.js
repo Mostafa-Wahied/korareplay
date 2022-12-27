@@ -7,7 +7,7 @@ function searchFunction() {
     headers = card.getElementsByClassName('card-header');
     // loop through all card headers, and hide those who don't match the search query
     for (i = 0; i < headers.length; i++) {
-        headerText = headers[i].innerText;
+        headerText = headers[i].innerText.toLowerCase();
         // console.log(headerText)
         txtValue = headerText.innerText || headerText.textContent;
         if (!headerText.includes(input.value)) {
@@ -81,10 +81,10 @@ $(function () {
         return showPage(+$(this).text());
     });
 
-    $(".next-page").on("click", function() {
+    $(".next-page").on("click", function () {
         return showPage(currentPage + 1);
     })
-    $(".previous-page").on("click", function() {
+    $(".previous-page").on("click", function () {
         return showPage(currentPage - 1);
     })
 });
