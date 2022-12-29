@@ -384,6 +384,11 @@ hr {
 }
 /* end of pagination */
 
+iframe {
+    width: 800px;
+    height: 600px;
+}
+
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
     from {
