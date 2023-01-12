@@ -382,12 +382,21 @@ hr {
     color: white;
 
 }
+
 /* end of pagination */
 
 iframe {
     width: 800px;
     height: 600px;
 }
+
+/* .fb-customerchat {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: auto;
+    height: auto;
+} */
 
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
