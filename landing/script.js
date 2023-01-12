@@ -70,7 +70,6 @@ fbIcon.appendChild(fbLink);
 document.body.appendChild(fbIcon);
 // end of adding fb page
 
-
 // adding fontawesome stylesheet to all pages head
 var fontAwesomeLink = document.createElement("link");
 fontAwesomeLink.rel = "stylesheet";
