@@ -128,3 +128,26 @@ div.setAttribute("page_id", "113064408307589");
 div.setAttribute("ref", "OPTIONAL_REFERENCE_PARAMETER");
 document.body.appendChild(div);
 // end of adding the fb plugin
+
+// adding fb page icon to all apges
+var fbIcon = document.createElement("div");
+fbIcon.id = "facebook-icon";
+
+var fbLink = document.createElement("a");
+fbLink.href = "https://www.facebook.com/profile.php?id=100088127456293";
+fbLink.target = "_blank";
+
+var fbIconImg = document.createElement("i");
+fbIconImg.className = "fab fa-facebook-square";
+
+fbLink.appendChild(fbIconImg);
+fbIcon.appendChild(fbLink);
+document.body.appendChild(fbIcon);
+// end of adding fb page
+
+// adding fontawesome stylesheet to all pages head
+var fontAwesomeLink = document.createElement("link");
+fontAwesomeLink.rel = "stylesheet";
+fontAwesomeLink.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+document.head.appendChild(fontAwesomeLink);
+// end of adding fontawesome
