@@ -46,3 +46,10 @@ window.fbAsyncInit = function () {
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 // <!-- end of fb chat plugin -->
+// adding the fb plugin to all pages
+var div = document.createElement("div");
+div.className = "fb-customerchat";
+div.setAttribute("page_id", "113064408307589");
+div.setAttribute("ref", "OPTIONAL_REFERENCE_PARAMETER");
+document.body.appendChild(div);
+// end of adding the fb plugin
