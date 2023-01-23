@@ -76,3 +76,10 @@ fontAwesomeLink.rel = "stylesheet";
 fontAwesomeLink.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
 document.head.appendChild(fontAwesomeLink);
 // end of adding fontawesome
+
+// adding adsterra social bar
+var adsterraSocialBar = document.createElement('script');
+adsterraSocialBar.type = 'text/javascript';
+adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
+document.body.appendChild(adsterraSocialBar);
+// end of adding adsterra social bar
