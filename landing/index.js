@@ -153,15 +153,15 @@ document.head.appendChild(fontAwesomeLink);
 // end of adding fontawesome
 
 // sovrn ads
-(function () {
-    var vglnk = { key: 'a62a8d2c0910594de10525a46e5ebb00' };
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = '//cdn.viglink.com/api/vglnk.js';
-    var firstScript = document.getElementsByTagName('script')[0];
-    firstScript.parentNode.insertBefore(script, firstScript);
-})();
+// (function () {
+//     var vglnk = { key: 'a62a8d2c0910594de10525a46e5ebb00' };
+//     var script = document.createElement('script');
+//     script.type = 'text/javascript';
+//     script.async = true;
+//     script.src = '//cdn.viglink.com/api/vglnk.js';
+//     var firstScript = document.getElementsByTagName('script')[0];
+//     firstScript.parentNode.insertBefore(script, firstScript);
+// })();
 // end of sovrn ads
 
 // adding adsterra social bar
