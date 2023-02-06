@@ -85,13 +85,14 @@ document.body.appendChild(adsterraSocialBar);
 // end of adding adsterra social bar
 
 // sovrn ads
-(function () {
-    var vglnk = { key: 'a62a8d2c0910594de10525a46e5ebb00' };
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = '//cdn.viglink.com/api/vglnk.js';
-    var firstScript = document.getElementsByTagName('script')[0];
-    firstScript.parentNode.insertBefore(script, firstScript);
-})();
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.innerHTML = `var vglnk = {key: 'a62a8d2c0910594de10525a46e5ebb00'};
+(function(d, t) {var s = d.createElement(t);
+  s.type = 'text/javascript';s.async = true;
+  s.src = '//cdn.viglink.com/api/vglnk.js';
+  var r = d.getElementsByTagName(t)[0];
+  r.parentNode.insertBefore(s, r);
+}(document, 'script'));`;
+document.body.appendChild(script);
 // end of sovrn ads
