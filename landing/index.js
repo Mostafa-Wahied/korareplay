@@ -162,8 +162,7 @@ script.innerHTML = `var vglnk = {key: 'a62a8d2c0910594de10525a46e5ebb00'};
   var r = d.getElementsByTagName(t)[0];
   r.parentNode.insertBefore(s, r);
 }(document, 'script'));`;
-document.body.appendChild(script);
-
+document.body.insertBefore(script, document.body.lastChild);
 // end of sovrn ads
 
 // adding adsterra social bar
