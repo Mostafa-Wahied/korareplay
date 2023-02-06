@@ -83,3 +83,15 @@ adsterraSocialBar.type = 'text/javascript';
 adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
 document.body.appendChild(adsterraSocialBar);
 // end of adding adsterra social bar
+
+// sovrn ads
+(function () {
+    var vglnk = { key: 'a62a8d2c0910594de10525a46e5ebb00' };
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = '//cdn.viglink.com/api/vglnk.js';
+    var firstScript = document.getElementsByTagName('script')[0];
+    firstScript.parentNode.insertBefore(script, firstScript);
+})();
+// end of sovrn ads
