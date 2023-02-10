@@ -172,52 +172,21 @@ document.body.insertBefore(script, document.body.lastChild);
 // document.body.appendChild(adsterraSocialBar);
 // end of adding adsterra social bar
 
+// monetag multi 
+function monetagMulti() {
+    let d = 'rouwhapt.com';
+    let z = 5711309;
 
+    let s = document.createElement('script');
+    s.src = 'https://' + d + '/400/' + z;
 
-// let cards = document.querySelectorAll('.card');
-// cards.forEach(card => {
-//     const date = new Date(card.querySelector('.card-footer').textContent);
-//     console.log(date);
-// });
-// function createCarousel() {
-//     // Get the container element
-//     const container = document.querySelector('.container.mt-3');
-
-//     // Create a new div element for the carousel
-//     const carouselContainer = document.createElement('div');
-//     carouselContainer.classList.add('carousel-container');
-
-//     // Insert the carousel container before the card-row container
-//     container.insertBefore(carouselContainer, container.firstChild);
-
-//     // Get all the card-footer elements
-//     const cardFooters = document.querySelectorAll('.card-footer');
-
-//     // Create an array to hold the cards
-//     const cards = [];
-
-//     // Iterate over the card-footer elements
-//     cardFooters.forEach(cardFooter => {
-//         // Get the parent element of the card-footer (the card element)
-//         let card = cardFooter.parentElement.parentElement.parentElement;
-//         // Get the date from the card-footer text content
-//         let date = new Date(cardFooter.textContent);
-//         // Add the card element and date to the cards array
-//         cards.push({ card, date });
-
-//     });
-//     // Sort the cards by date (most recent first)
-//     cards.sort((a, b) => b.date - a.date);
-
-//     // Get the 8 most recent cards
-//     const recentCards = cards.slice(0, 8);
-
-//     // Add each recent card to the carousel
-//     recentCards.forEach(card => {
-//         carouselContainer.appendChild(card.card);
-//     });
-// }
-
-// // Call the function when the DOM is loaded
-// document.addEventListener("DOMContentLoaded", createCarousel);
-
+    try {
+        (document.body || document.documentElement).appendChild(s);
+    } catch (e) {
+        // handle error
+    }
+}
+window.onload = function () {
+    monetagMulti();
+}
+// end of multi

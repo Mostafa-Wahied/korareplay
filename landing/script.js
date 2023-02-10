@@ -78,10 +78,10 @@ document.head.appendChild(fontAwesomeLink);
 // end of adding fontawesome
 
 // adding adsterra social bar
-var adsterraSocialBar = document.createElement('script');
-adsterraSocialBar.type = 'text/javascript';
-adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
-document.body.appendChild(adsterraSocialBar);
+// var adsterraSocialBar = document.createElement('script');
+// adsterraSocialBar.type = 'text/javascript';
+// adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
+// document.body.appendChild(adsterraSocialBar);
 // end of adding adsterra social bar
 
 // sovrn ads
@@ -94,5 +94,24 @@ sovrnScript.innerHTML = `var vglnk = {key: 'a62a8d2c0910594de10525a46e5ebb00'};
   var r = d.getElementsByTagName(t)[0];
   r.parentNode.insertBefore(s, r);
 }(document, 'script'));`;
-document.body.insertBefore(script, document.body.lastChild);
+document.body.insertBefore(sovrnScript, document.body.lastChild);
 // end of sovrn ads
+
+// monetag multi 
+function monetagMulti() {
+    let d = 'rouwhapt.com';
+    let z = 5711309;
+
+    let s = document.createElement('script');
+    s.src = 'https://' + d + '/400/' + z;
+
+    try {
+        (document.body || document.documentElement).appendChild(s);
+    } catch (e) {
+        // handle error
+    }
+}
+window.onload = function () {
+    monetagMulti();
+}
+// end of multi
