@@ -84,19 +84,6 @@ document.head.appendChild(fontAwesomeLink);
 // document.body.appendChild(adsterraSocialBar);
 // end of adding adsterra social bar
 
-// sovrn ads
-var sovrnScript = document.createElement('script');
-sovrnScript.type = 'text/javascript';
-sovrnScript.innerHTML = `var vglnk = {key: 'a62a8d2c0910594de10525a46e5ebb00'};
-(function(d, t) {var s = d.createElement(t);
-  s.type = 'text/javascript';s.async = true;
-  s.src = '//cdn.viglink.com/api/vglnk.js';
-  var r = d.getElementsByTagName(t)[0];
-  r.parentNode.insertBefore(s, r);
-}(document, 'script'));`;
-document.body.insertBefore(sovrnScript, document.body.lastChild);
-// end of sovrn ads
-
 // monetag multi 
 function monetagMulti() {
     let d = 'rouwhapt.com';
