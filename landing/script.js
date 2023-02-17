@@ -77,13 +77,6 @@ fontAwesomeLink.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15
 document.head.appendChild(fontAwesomeLink);
 // end of adding fontawesome
 
-// adding adsterra social bar
-// var adsterraSocialBar = document.createElement('script');
-// adsterraSocialBar.type = 'text/javascript';
-// adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
-// document.body.appendChild(adsterraSocialBar);
-// end of adding adsterra social bar
-
 // monetag multi 
 function monetagMulti() {
     let d = 'rouwhapt.com';
@@ -102,3 +95,115 @@ window.onload = function () {
     monetagMulti();
 }
 // end of multi
+
+// adding adsterra social bar
+// var adsterraSocialBar = document.createElement('script');
+// adsterraSocialBar.type = 'text/javascript';
+// adsterraSocialBar.src = '//pl18191454.highcpmrevenuenetwork.com/7c/15/70/7c15703359cb984a6f7721038814e486.js';
+// document.body.appendChild(adsterraSocialBar);
+// end of adding adsterra social bar
+
+// adding adsterra native banner
+const footerParent = document.querySelector("footer").parentNode;
+const footer = document.querySelector("footer");
+const adsterraNativeBannerScript = document.createElement("script");
+adsterraNativeBannerScript.src = "//pl18191413.highcpmrevenuenetwork.com/863366fe232d0cb1c719b75fa0772d3f/invoke.js";
+const adsterraNativeBannerDiv = document.createElement("div");
+adsterraNativeBannerDiv.id = "container-863366fe232d0cb1c719b75fa0772d3f";
+footerParent.insertBefore(adsterraNativeBannerScript, footer);
+footerParent.insertBefore(adsterraNativeBannerDiv, footer);
+// end of adsterra native banner
+
+// adding adsterra native banner
+const disclaimerParent = document.querySelector(".alert-message").parentNode;
+const disclaimer = document.querySelector(".alert-message");
+const adsterraNativeBannerScript2 = document.createElement("script");
+adsterraNativeBannerScript2.src = "//pl18191413.highcpmrevenuenetwork.com/863366fe232d0cb1c719b75fa0772d3f/invoke.js";
+const adsterraNativeBannerDiv2 = document.createElement("div");
+adsterraNativeBannerDiv2.id = "container-863366fe232d0cb1c719b75fa0772d3f";
+disclaimerParent.insertBefore(adsterraNativeBannerScript2, disclaimer);
+disclaimerParent.insertBefore(adsterraNativeBannerDiv2, disclaimer);
+// // <!-- adsterra native banner -->
+// <script async="async" data-cfasync="false"
+//     src="//pl18191413.highcpmrevenuenetwork.com/863366fe232d0cb1c719b75fa0772d3f/invoke.js"></script>
+// <div id="container-863366fe232d0cb1c719b75fa0772d3f"></div> 
+// end of adsterra native banner
+
+// adding container with 2 col for 300x250 adsterra ad
+// create container element with class "container"
+const container = document.createElement("div");
+container.classList.add("container");
+
+// create row element with class "row"
+const row = document.createElement("div");
+row.classList.add("row");
+
+// create first column element with class "col" and styles for width and height
+const col1 = document.createElement("div");
+col1.classList.add("col");
+col1.style.width = "200px";
+col1.style.height = "300px";
+
+// create script element with the necessary options
+const script1 = document.createElement("script");
+script1.type = "text/javascript";
+script1.innerHTML = "atOptions = { 'key': 'e16e6f5235ac5658269b0cc594173ff2', 'format': 'iframe', 'height': 250, 'width': 300, 'params': {} }; document.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js\"></scr' + 'ipt>');";
+
+// append script1 to col1
+col1.appendChild(script1);
+
+// create second column element with class "col" and styles for width and height
+const col2 = document.createElement("div");
+col2.classList.add("col");
+col2.style.width = "200px";
+col2.style.height = "300px";
+
+// create script element with the necessary options
+const script2 = document.createElement("script");
+script2.type = "text/javascript";
+script2.innerHTML = "atOptions = { 'key': 'e16e6f5235ac5658269b0cc594173ff2', 'format': 'iframe', 'height': 250, 'width': 300, 'params': {} }; document.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js\"></scr' + 'ipt>');";
+
+// append script2 to col2
+col2.appendChild(script2);
+
+// append col1 and col2 to row
+row.appendChild(col1);
+row.appendChild(col2);
+
+// append row to container
+container.appendChild(row);
+
+// insert into the document
+footerParent.insertBefore(container, footer);
+
+
+// <div class="container">
+// <div class="row">
+//     <div class="col" style="width: 200px; height: 300px">
+//         <script type="text/javascript">
+//             atOptions = {
+//                 'key': 'e16e6f5235ac5658269b0cc594173ff2',
+//                 'format': 'iframe',
+//                 'height': 250,
+//                 'width': 300,
+//                 'params': {}
+//             };
+//             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js"></scr' + 'ipt>');
+//         </script>
+//     </div>
+//     <div class="col" style="width: 200px; height: 300px">
+//         <script type="text/javascript">
+//             atOptions = {
+//                 'key': 'e16e6f5235ac5658269b0cc594173ff2',
+//                 'format': 'iframe',
+//                 'height': 250,
+//                 'width': 300,
+//                 'params': {}
+//             };
+//             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js"></scr' + 'ipt>');
+//         </script>
+//     </div>
+// </div>
+// </div>
+
+// end of adding container with 2 col for 300x250 adsterra ad
