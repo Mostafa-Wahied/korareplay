@@ -177,33 +177,4 @@ container.appendChild(row);
 footerParent.insertBefore(container, footer);
 
 
-// <div class="container">
-// <div class="row">
-//     <div class="col" style="width: 200px; height: 300px">
-//         <script type="text/javascript">
-//             atOptions = {
-//                 'key': 'e16e6f5235ac5658269b0cc594173ff2',
-//                 'format': 'iframe',
-//                 'height': 250,
-//                 'width': 300,
-//                 'params': {}
-//             };
-//             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js"></scr' + 'ipt>');
-//         </script>
-//     </div>
-//     <div class="col" style="width: 200px; height: 300px">
-//         <script type="text/javascript">
-//             atOptions = {
-//                 'key': 'e16e6f5235ac5658269b0cc594173ff2',
-//                 'format': 'iframe',
-//                 'height': 250,
-//                 'width': 300,
-//                 'params': {}
-//             };
-//             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivecreativeformat.com/e16e6f5235ac5658269b0cc594173ff2/invoke.js"></scr' + 'ipt>');
-//         </script>
-//     </div>
-// </div>
-// </div>
-
 // end of adding container with 2 col for 300x250 adsterra ad
